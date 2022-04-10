@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <meta name="meeting-schedule" content="">
+    <title></title>
+    <link href="./lib/flip/flip.min.css" rel="stylesheet">
+    <link href="./index/index.css" rel="stylesheet">
+</head>
+<body>
+  <div id="logo" class="container hide"><img class="logo fade-in-image" height="250" src="jworg.png"/></div>
+  <div id="ticker" class="tick container" data-did-init="handleTickInit">
+      <div data-repeat="true" data-layout="horizontal fit" data-transform="preset(h, m, s) -> delay">
+          <div class="tick-group">
+              <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
+                  <span data-view="flip"></span>
+              </div>
+              <span data-key="label" data-view="text" class="tick-label"></span>
+          </div>
+      </div>
+  </div>
+  <script src="./lib/moment.min.js"></script>
+  <script src="./index/index.js"></script>
+  <script src="./lib/flip/flip.min.js"></script>
+</body>
+</html>

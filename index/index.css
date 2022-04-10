@@ -1,0 +1,131 @@
+.tick {
+    font-size: 2rem;
+    white-space: nowrap;
+    font-family: arial, sans-serif;
+}
+
+.tick-flip, .tick-text-inline {
+    font-size: 2.5em;
+}
+
+.tick-label {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.tick-char {
+    width: 1.5em;
+}
+
+.tick-text-inline {
+    display: inline-block;
+    text-align: center;
+    min-width: 1em;
+}
+
+.tick-text-inline+.tick-text-inline {
+    margin-left: -.325em;
+}
+
+.tick-group {
+    margin: 0 .5em;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.tick-text-inline {
+    color: rgb(90, 93, 99) !important;
+}
+
+.tick-label {
+    color: rgb(90, 93, 99) !important;
+}
+
+.tick-flip-panel {
+    color: rgb(255, 255, 255) !important;
+}
+
+
+.tick-flip-panel-text-wrapper {
+    line-height: 1.45 !important;
+}
+
+.tick-flip-panel {
+    background-color: rgb(76, 108, 164) !important;
+}
+
+.tick-flip {
+    border-radius: 0.12em !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
