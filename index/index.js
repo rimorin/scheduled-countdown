@@ -72,6 +72,10 @@ function getMeetingSchedule() {
     // CN
 
     // TG
+
+    // Special Days
+    schedule.push("15th friday at 18:45");
+    schedule.push("15th friday at 20:30");
     const schedule_string = schedule.join(",");
     document.querySelector('meta[name="meeting-schedule"]').setAttribute("content", schedule_string);
     return schedule_string;
